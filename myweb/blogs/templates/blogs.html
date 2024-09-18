@@ -9,6 +9,11 @@
     <a href="../contact" >contact</a>
     <a href="../members" >members</a>
     <a href="../about" >about</a>
+
+    <ul></ul>
+        {% for x in blogs %}
+          <li>{{ x.title }} {{ x.detail}}</li>
+      </ul>
 </body>
 
 </html>
